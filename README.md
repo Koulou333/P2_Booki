@@ -1,6 +1,6 @@
 Transformez une maquette en site web avec HTML & CSS
 
-Objectif : réaliser un prototype pour Booki avec HTML & CSS contraintes à respecter : 
+Réalisation d'un prototype pour Booki avec HTML & CSS régles à respecter : 
 - Maquette Desktop et mobile imposé 
 - police d'écriture et icone 
 - coleur de la charte graphique 
