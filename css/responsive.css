@@ -1,0 +1,317 @@
+/* responsive tablette */
+@media all and (min-width: 772px) and (max-width: 992px) {
+    #Hebergements{
+        margin: 0rem;
+    }
+    
+    #marseille {
+        width: 100%;
+        background-color: #F2F2F2;
+        margin: 20px;
+        padding: 20px;
+        order: 2;
+    }
+    .bloc_hebergement {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .box_hebergement {
+        width: 32%;
+        box-shadow: 1px 1px 5px #d0d2d6;
+    }
+    img.imghebergement {
+        width: 100%;
+    }
+    /* section populaire */
+    #populaire {
+        padding: 20px;
+        width: 100%;
+        border-radius: 2rem;
+        margin: 20px;
+        order: 1;
+        flex-wrap: wrap;
+    }
+    .bloc_populaire {
+        width: 100%;
+        align-items: center;
+    }
+    .box_populaire {
+        width: 100%;
+    }
+    /* section activité */
+    #bloc_activites {
+        display: block;
+        height: auto;
+        padding: 30px 20px;
+    }
+    
+    /* carte le Vieux Port */
+    #vignette1{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+    
+    #photo1{
+        height: 150px;
+    }
+    
+    #intitule1{
+        margin-top: 145px;
+    }
+    
+    /* carte le Fort de Pomègues */
+    #vignette2{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+    
+    #photo2{
+        height: 150px;
+    }
+    
+    #intitule2{
+        margin-top: 145px;
+    }
+    /* carte Iles de Frioul */
+    #vignette3{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+    
+    #photo3{
+        height: 150px;
+    }
+    
+    #intitule3{
+        margin-top: 145px;
+    }
+    
+    /* carte le Parc National des Calanques */
+    #vignette4{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+    
+    #photo4{
+        height: 150px;
+    }
+    
+    #intitule4{
+        margin-top: 145px;
+    }
+    
+    /* carte le Notre-Dame-de-la-Garde */
+    #vignette5{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+    
+    #photo5{
+        height: 150px;
+    }
+    
+    #intitule5{
+        margin-top: 145px;
+    }
+    
+    /* carte le Parc Longchamp  */
+    #vignette6{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+    
+    #photo6{
+        height: 150px;
+    }
+    
+    #intitule6{
+        margin-top: 145px;
+    }
+
+}
+
+/* responsive tablette bis  (Bloc Hebergement */
+@media all and (min-width: 992px) and (max-width: 1190px) {
+    #marseille {
+        width: auto;
+        background-color: #F2F2F2;
+        border-radius: 25px;
+        padding: 2rem;
+        order: 2;
+        margin-top: 40px;
+    }
+    .bloc_hebergement {
+        width: 100%;
+    }
+
+    .box_hebergement {
+        width: 32%;
+        box-shadow: 1px 1px 5px #d0d2d6;
+    }
+    img.imghebergement {
+        width: 100%;
+    }
+    #populaire {
+        padding: 20px;
+        width: 100%;
+        border-radius: 25px;
+        order: 1;
+        flex-wrap: wrap;
+    }
+    .bloc_populaire {
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+    .box_populaire {
+        width: 32%;
+    }    
+}
+
+/* responsive mobile */
+
+@media screen and (max-width: 768px) {
+/* Header */
+#header-img{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+
+.sub-nav{
+    order: 1;
+    flex-basis: 100%;
+}
+
+.sub-nav a{
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: 4px solid #f2f2f2;
+}
+
+nav a{
+    padding: 1rem;
+}
+    
+.sub-nav a:hover{
+    border-bottom-color:blue;
+    border-top: none;
+}
+
+/* Section recherche */
+.searchform .searchtext{
+    display: none;
+}
+
+.search-form button{
+    margin-left: -1rem;
+    padding: 0;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.fas.fa-search{
+    display:inline;
+}
+
+.fa-search{
+    
+    display: inline;
+}
+.search-text{
+    display: none;
+}
+
+/* section filtre */
+.filterlist h2{
+    margin-right: 10rem;
+}
+
+/* section appartement */
+#Hebergements{
+    margin: 0rem;
+}
+
+#marseille {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    order: 2;
+}
+.bloc_hebergement {
+    flex-direction: column;
+    width: 100%;
+}
+.box_hebergement {
+    width: 100%;
+    box-shadow: 1px 1px 5px #d0d2d6;
+}
+img.imghebergement {
+    width: 100%;
+}
+/* section populaire */
+#populaire {
+    padding: 20px;
+    width: 100%;
+    border-radius: 0rem;
+    order: 1;
+    flex-wrap: wrap;
+}
+.bloc_populaire {
+    width: 100%;
+    align-items: center;
+}
+.box_populaire {
+    width: 100%;
+}
+
+/* section activité */
+.activities {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 40px;
+    order: 5;
+  }
+  .activities h3{
+    margin: 0 0 10px 20px;
+    font-size: 24px;
+  }
+  .cards-activities {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    gap: 25px;
+  }
+  .card-activities {
+    height: 30vh;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+    margin: 0;
+  }
+  .card-activities a img {
+    height: 75%;
+  }
+  .card-3v2 {
+    box-shadow:0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+/* Section pied de page */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    }
+
+
+}

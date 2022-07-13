@@ -1,0 +1,477 @@
+/* header */
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+  width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a {
+    padding: 3rem;
+}
+
+nav a:hover{
+    border-top: 2px solid #0065FC;
+    color:#0065FC; 
+}
+
+#header-img{
+    padding: 0 2rem;
+    height: 70px;
+}
+
+.wrapper{
+    padding: 1rem 2rem;
+}
+
+.wrapper h1{
+    font-size: 26px;
+}
+
+.sub-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section rechereche */
+.search-form{
+    display: flex;  
+    margin: 0rem 2rem 0rem 2rem;  
+    margin-bottom: 1rem;
+}
+
+.search-form i{
+    padding: 1rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.search-form .fa-map-marker-alt{
+    background-color: #F2F2F2;
+}
+
+.search-form input{
+    padding-right: 7rem;
+    border: 1px solid #F2F2F2;
+    overflow: auto;  
+}
+
+.search-form input::placeholder{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.search-form button{
+    background-color: #0065FC;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    border: none;
+}
+
+.fas.fa-search{
+    display: none;
+}  
+
+/* section filtres */
+.filter-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 2rem;
+}
+
+.filter-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter{
+    border: 3px solid #F2F2F2;
+    border-radius: 2rem;
+}
+
+.filter:hover{
+    background-color: #DEEBFF;
+}
+
+.filter .fas{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: -3px;
+}
+
+.filter span{
+    font-weight: bold;
+    padding: 25px;
+}
+
+/* Info message */
+.mess-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 2rem;
+}
+
+.mess-info .fas{
+    color: #0065FC;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Section appartement */
+#Hebergements {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#marseille {
+
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 2rem;
+    width: 66%;
+}
+
+.bloc_hebergement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.box_hebergement {
+    height: 200px;
+    width: 31%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+img.imghebergement {
+    width: 100%;
+    height: 115px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+p{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+h3{
+    margin: 0px;
+    font-weight: bolder;
+    font-size: initial;
+    color: black;
+}
+
+
+.bloctexte {
+    padding: 3px 10px;
+}
+
+.starbleue {
+    color: #0065FC;
+}
+
+.stargrise {
+    color: #F2F2F2;
+}
+
+a.vignette_photo {
+    text-decoration: none;
+}
+
+.box_hebergement:hover {
+    transform: scale(1.05);
+}
+
+/*partie hébergements populaires*/
+
+#populaire {
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 2rem;
+    width: 31%;
+}
+
+.bloc_populaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box_populaire {
+    height: 145px;
+    width: 100%;
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.box_populaire:hover {
+    transform: scale(1.05);
+}
+
+img.imgpopulaire {
+    width: 130px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.bloc2 {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#titre_populaire {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bloctexte_populaire {
+    padding: 11px;
+    width: 200px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bloctexte_populaire .prix{
+  margin-top: 10px;
+}
+
+#afficherplus {
+    margin-top: 35px;
+}
+
+/* section activité */
+aside {
+    margin-right: 40px;
+    background-color: #ececec;
+    border-radius: 20px;
+    grid-area: aside;
+  }
+  .price__2{
+      display: none;
+  }
+  .cards-aside {
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+  }
+  
+  .activities {
+    margin: 15px 40px;
+    grid-area: activities;
+  }
+  .activities h3{
+    margin-left: 0;
+    margin-bottom: 2rem;
+    font-size: 24px;
+  }
+
+  .card {
+    width: 29.9%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    transition: box-shadow 0.5s ease-in-out;
+  }
+  .card img {
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 3px;
+  }
+  .card-accommodations {
+    padding: 0px 0px 0px 15px;
+    line-height: 1.5;
+  }
+  .aside-description {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 10px;
+    justify-content: space-around;
+  }
+  
+  .stars {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+  }
+  .cards {
+    margin: 0 25px 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+  }
+  .show-more {
+    margin: 0px 0 40px 30px;
+  }
+  .card-aside {
+    height: 140px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+    border: white solid 3px;
+    transition: box-shadow 0.5s ease-in-out;
+  }
+  .card-aside:hover {
+    transform: scale(1.05);
+  }
+  .card-aside img {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .cards-activities {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 4%;
+    GRID-ROW-GAP: 25PX;
+    grid-template-areas:
+      "item1 item2 item4 item5"
+      "item1 item3 item4 item6";
+  }
+  .card-activities {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.5s ease-in-out;
+  }
+  .card-activities a img {
+    width: 100%;
+    object-fit: cover;
+    height: 88%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .card-3v2 {
+    height: 30vh;
+    background-color: white;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.5s ease-in-out;
+  }
+  .card-3v2 img {
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .activities-description {
+    padding: 10px 16px;
+  }
+  .footer-content {
+    width: 30%;
+    padding: 30px;
+    line-height: 2;
+    margin: 10px 0 13px 15px;
+  }
+  .item1 {
+    grid-area: item1;
+  }
+  .item2 {
+    grid-area: item2;
+  }
+  .item3 {
+    grid-area: item3;
+  }
+  .item4 {
+    grid-area: item4;
+  }
+  .item5 {
+    grid-area: item5;
+  }
+  .item6 {
+    grid-area: item6;
+  }
+  .checked {
+    color: cornflowerblue;
+  }
+  .section-title-3 {
+    margin: 15px 0 22px 20px;
+    font-weight: 700;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card-activities:hover {
+    transform: scale(1.05);
+  }
+  .card-3v2:hover {
+    transform: scale(1.05);
+  }
+/* Pied de page */
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15%;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+footer p{
+    margin: 15px 0px;
+}
+
+.footer-column{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
